@@ -213,8 +213,11 @@ spark-warehouse/
 !data_lake/raw/weather_data/2024/08/weather_2024-08-10.csv
 !data_lake/raw/weather_data/2024/09/weather_2024-09-10.csv
 !data_lake/silver/market_data/nasdaq/2024/07/part-00000-93c12dce-0155-4578-8106-e58955abf206-c000.snappy.parquet
+!data_lake/silver/market_data/nasdaq/2024/08/part-00000-536aee7c-b2ca-439f-a0ff-7653ba615274-c000.snappy.parquet
 !data_lake/silver/market_data/dowjones/2024/09/part-00000-2bfc555e-9f7f-40b1-b5f7-89da333a926b-c000.snappy.parquet
-!data_lake/silver/weather_data/2024/08/part-00000-fa2ce9d9-501f-4f7f-9b69-b666958d81b4-c000.snappy.parquet
+!data_lake/silver/market_data/dowjones/2024/08/part-00000-178d1ce7-f46d-409f-bd9f-52d39e47fce9-c000.snappy.parquet
+!data_lake/silver/market_data/sp500/2024/08/part-00000-f64e183c-3d2a-4651-b1ea-70e280d761eb-c000.snappy.parquet
+!data_lake/silver/market_data/sp500/2024/10/part-00000-0676e1ac-fc06-4716-a4bb-556f6768776e-c000.snappy.parquet!data_lake/silver/weather_data/2024/08/part-00000-fa2ce9d9-501f-4f7f-9b69-b666958d81b4-c000.snappy.parquet
 !data_lake/silver/weather_data/2024/10/part-00000-990d0bf7-72b3-4aca-ba16-ce67a7093e4f-c000.snappy.parquet
 !data_lake/silver/market_data/sp500/2024/10/part-00000-0676e1ac-fc06-4716-a4bb-556f6768776e-c000.snappy.parquet
 # Do not ignore a specific Parquet file
