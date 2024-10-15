@@ -8,17 +8,17 @@ import pandas as pd
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
-class WeatherData():
+class WeatherDataFetcher():
     """
     A class to manage weather data fetched from a free weather API for New York City.
     """
     def __init__(self):
         """
-        Initializes the WeatherData instance without fetching data immediately.
+        Initializes the WeatherDataFetcher instance without fetching data immediately.
         """
-        logging.info("Initializing WeatherData instance...")
+        logging.info("Initializing WeatherDataFetcher instance...")
         self._weather_data = None
-        logging.info("WeatherData instance initialized.")
+        logging.info("WeatherDataFetcher instance initialized.")
 
     def _get_last_loaded_date(self):
         """

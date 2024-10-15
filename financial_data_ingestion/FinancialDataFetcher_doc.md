@@ -1,7 +1,8 @@
-# Market Data Module Documentation
+
+# FinancialDataFetcher Module Documentation
 
 ## Overview
-The Market Data module (`MarketData`) is designed to fetch, process, and store historical financial data for major indices such as the Dow Jones, NASDAQ, and S&P 500. The data is retrieved using Yahoo Finance, and it is saved in a structured format into a data lake. This module allows incremental loading of data to maintain up-to-date information for analysis purposes.
+The Market Data module (`FinancialDataFetcher`) is designed to fetch, process, and store historical financial data for major indices such as the Dow Jones, NASDAQ, and S&P 500. The data is retrieved using Yahoo Finance, and it is saved in a structured format into a data lake. This module allows incremental loading of data to maintain up-to-date information for analysis purposes.
 
 ## Features
 - Fetches historical market data for a defined set of indices using Yahoo Finance.

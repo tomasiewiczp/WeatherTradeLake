@@ -13,17 +13,17 @@ tickers = {
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
-class MarketData():
+class FinancialDataFetcher():
     """
     A class to manage market data fetched from Yahoo Finance.
     """
     def __init__(self):
         """
-        Initializes the MarketData instance without fetching data immediately.
+        Initializes the FinancialDataFetcher instance without fetching data immediately.
         """
-        logging.info("Initializing MarketData instance...")
+        logging.info("Initializing FinancialDataFetcher instance...")
         self._market_data = None
-        logging.info("MarketData instance initialized.")
+        logging.info("FinancialDataFetcher instance initialized.")
 
     def _get_last_loaded_date(self):
         """

@@ -1,7 +1,7 @@
 import logging
 import os
-from market_data.MarketData import MarketData
-from weather_data.WeatherData import WeatherData
+from financial_data_ingestion.FinancialDataFetcher import FinancialDataFetcher
+from weather_data_ingestion.WeatherDataFetcher import WeatherDataFetcher
 from transformations.IntermediateDataProcessor import IntermediateDataProcessor
 
 # Configure logging
@@ -18,7 +18,7 @@ def main():
     
     # Download market data
     try:
-        market_data = MarketData()
+        market_data = FinancialDataFetcher()
         market_data.download_new_market_data()
         logging.info("Market data download completed.")
     except Exception as e:
@@ -26,7 +26,7 @@ def main():
     
     # Download weather data
     try:
-        weather_data = WeatherData()
+        weather_data = WeatherDataFetcher()
         weather_data.download_new_weather_data()
         logging.info("Weather data download completed.")
     except Exception as e:
