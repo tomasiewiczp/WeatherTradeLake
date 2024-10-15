@@ -160,3 +160,40 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+# Ignore data lake files
+/data_lake/raw/**/*.csv
+/data_lake/silver/**/*.parquet
+/data_lake/silver/**/*.crc
+# Ignore configuration files with sensitive information
+/data_lake/config/*.txt
+
+# Ignore system files
+*.DS_Store
+*.log
+
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+
+# Ignore Spark-specific temporary directories
+spark-warehouse/
+.metastore_db/
+
+# Ignore Spark success indicator files
+**/_SUCCESS
